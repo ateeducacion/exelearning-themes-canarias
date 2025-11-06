@@ -61,7 +61,6 @@ main header:not(#head) {
     display: flex !important;
     align-items: center;
     background-color: #fff;
-    /* background:#fff url(img/logo.png) no-repeat 32px 15px/ 132px; */
     border-bottom: 1px solid #FFCC00;
 }
 
@@ -787,13 +786,13 @@ body.siteNav-off button#searchBarTogger{
     width: 64px;
     font-size: 1rem;
 }
-.exe-export  .form-switch .form-check-input:focus{
+.exe-export .form-switch .form-check-input:focus{
     background-image: url(img/switch.svg);
     background-size: 16px;
     background-repeat: no-repeat;
     background-position: left 1.6px center;
 }
-.exe-export  .mode-teacher .form-switch .form-check-input:focus{
+.mode-teacher .exe-export .form-switch .form-check-input:focus{
     background-image: url(img/switch_white.svg);
     background-position: right 1.6px center;
 }
@@ -966,10 +965,6 @@ body.siteNav-off button#searchBarTogger{
     .exe-web-site .exe-content .box{
         margin-top: 20px;
     }
-
-    /* .page > header, .siteNav-off .page > header{
-        background: #fff url(img/logo_responsive.png) no-repeat 32px 15px/ 32px;
-    } */
     .page > header .package-title, .siteNav-off .page > header .package-title{
         width: calc(100% - 180px);
     }
@@ -1128,3 +1123,25 @@ table{
     .exe-web-site main.page{padding-left: 0;padding-right: 0}
     .exe-web-site main.page{padding-top:1em}
 }
+
+/* Logotipo (delete the next comment lines to make visible the logo)*/
+
+/*
+.page > header{background:#fff url(img/logo.png) no-repeat 24px 15px/ 132px;}
+.page > header .package-title, .exe-single-page .package-header h1{padding-left: 164px;}
+.exe-teacher-mode-toggler .page > header .package-title, .exe-teacher-mode-toggler.siteNav-off .page > header .package-title{width: calc(100% - 500px);}
+@media (max-width: 1024px) {
+    .exe-teacher-mode-toggler .page > header .package-title, .exe-teacher-mode-toggler.siteNav-off .page > header .package-title{width: calc(100% - 300px);}
+}
+@media (max-width: 750px) {
+    .page > header, .siteNav-off .page > header{background: #fff url(img/logo_responsive.png) no-repeat 32px 15px/ 32px;}
+    .page > header .package-title, .exe-single-page .package-header h1, .siteNav-off .page > header .package-title{padding-left: 80px;}
+    .exe-teacher-mode-toggler .page > header .package-title, .exe-teacher-mode-toggler.siteNav-off .page > header .package-title{width: calc(100% - 300px);}
+
+}
+@media (max-width: 650px) {
+    .page > header, .siteNav-off .page > header{background: #fff url(img/logo_responsive.png) no-repeat 14px 26px/ 20px;}
+    .page > header .package-title, .exe-single-page .package-header h1, .siteNav-off .page > header .package-title{padding-left: 60px;}
+    .exe-teacher-mode-toggler .page > header .package-title, .exe-teacher-mode-toggler.siteNav-off .page > header .package-title{width: calc(100% - 300px);}
+}
+*/
